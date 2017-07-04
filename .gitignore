@@ -1,0 +1,9 @@
+/node_modules
+/bower_components
+/build/
+/npm-debug.log
+/docker-compose.yml
+/*.env
+/data
+/*.log
+*/shintech*
