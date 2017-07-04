@@ -13,7 +13,12 @@ config.mysqlDB = {
     password: process.env['DB_PASSWORD'],
     database: process.env['DB_NAME']
   },
-  production: process.env['DATABASE_URL']
+  production: {
+    host: process.env['DB_HOST'],
+    user: process.env['MYSQL_USER'],
+    password: process.env['MYSQL_PASSWORD'],
+    database: process.env['MYSQL_DATABASE']
+  }
 }
 
 export default config
