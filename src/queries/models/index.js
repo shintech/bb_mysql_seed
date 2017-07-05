@@ -1,3 +1,5 @@
+import pagurbation from 'pagurbation'
+
 const queries = {}
 
 export default function getAllRoutes (options) {
@@ -11,10 +13,7 @@ export default function getAllRoutes (options) {
       }
 
       res.status(200)
-      .json({
-        status: 'success',
-        body: results
-      })
+      .json(pagurbation(req, results, 10))
     })
   }
 
