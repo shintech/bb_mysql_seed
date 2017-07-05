@@ -1,6 +1,6 @@
 {
   "name": "bb_mysql_seed",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "bb_mysql_seed",
   "main": "build/server.js",
   "repository": "https://github.com/shintech/bb_mysql_seed",
@@ -43,7 +43,7 @@
     "passport-local": "^1.0.0",
     "serve-favicon": "^2.4.0",
     "shintech-config": "^0.1.3",
-    "shintech-info": "^0.0.2",
+    "shintech-info": "^0.0.3",
     "shintech-init-passport": "^0.0.3",
     "shintech-mysql": "^0.0.3",
     "winston-color": "^1.0.0"
